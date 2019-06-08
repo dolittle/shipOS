@@ -5,7 +5,7 @@ background: 'images/kevin-bhagat-461952-unsplash.jpg'
 button: 'Existing building blocks'
 buttonLink: 'https://dolittle.io'
 ---
-shipOS consists of both hardware and software that together work together to
+shipOS consists of both hardware and software that work together to
 bring forward the innovation necessary to bring shipping to the future.
 Core to shipOS is that everything is built in the open, complete open-source
 and is a joint effort across the industry governed by a foundation.
