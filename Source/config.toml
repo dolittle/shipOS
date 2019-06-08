@@ -1,4 +1,4 @@
-baseURL = "www.shipos.org"
+baseURL = "/"
 languageCode = "en-us"
 title = "shipOS"
 themesDir = "./themes"

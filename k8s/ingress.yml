@@ -1,0 +1,22 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: shipos
+  namespace: dolittle
+spec:
+  rules:
+  - host: shipos.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: shipos
+          servicePort: 80
+  - host: www.shipos.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: shipos
+          servicePort: 80          
