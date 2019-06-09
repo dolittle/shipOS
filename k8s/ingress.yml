@@ -6,6 +6,13 @@ metadata:
   namespace: dolittle
 spec:
   rules:
+  - host: shipos.dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: shipos
+          servicePort: 80
   - host: shipos.org
     http:
       paths:
