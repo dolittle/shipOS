@@ -1,7 +1,7 @@
 ---
 title: 'Joint foundation'
 weight: 1
-background: 'images/kevin-bhagat-461952-unsplash.jpg'
+background: 'images/_DSC1719-1.jpg'
 button: 'Existing building blocks'
 buttonLink: 'https://dolittle.io'
 ---
