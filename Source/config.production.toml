@@ -1,4 +1,4 @@
-baseURL = "https://shipos.netlify.com"
+baseURL = "https://shipos.netlify.com/"
 languageCode = "en-us"
 title = "shipOS"
 themesDir = "./themes"
