@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "shipOS"
 themesDir = "./themes"
-theme = "hugo-hero-theme"
+theme = "hero"
 
 [params]
   google_analytics_id=""
@@ -14,9 +14,9 @@ theme = "hugo-hero-theme"
     meta_og_url = "https://shipos.org"
     meta_og_image = ""
     meta_og_description = ""
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_card = ""
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
 
 #[[menu.main]]
 #	name = "Services"
@@ -28,10 +28,11 @@ theme = "hugo-hero-theme"
 #    url = "/work/"
 #    weight = 2
 #
-#[[menu.main]]
-#    name = "About"
-#    url = "/about/"
-#    weight = 3
+
+[[menu.main]]
+   name = "About"
+   url = "/about/"
+   weight = 3
 #
 #[[menu.main]]
 #    name = "Contact"

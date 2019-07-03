@@ -1,7 +1,7 @@
 ---
 title: 'Home'
 date: 2018-02-12T15:37:57+07:00
-heroHeading: 'Bringing the cloud to the open sea'
+heroHeading: 'An ecosystem for deployment of innovative applications for the maritime industry'
 heroSubHeading: ''
-heroBackground: 'images/kinsey-611970-unsplash.jpg'
+heroBackground: 'images/_DSC1748_web.jpg'
 ---
