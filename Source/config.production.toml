@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://shipos.netlify.com"
 languageCode = "en-us"
 title = "shipOS"
 themesDir = "./themes"
