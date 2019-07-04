@@ -1,6 +1,4 @@
-{{ define "title" }}shipOS{{ end}}
-{{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "title" }}shipOS{{ end }} {{ define "header_css" }}{{ end }} {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}header-transparent{{ end }}
 
 {{ define "meta_tags" }}
@@ -21,64 +19,64 @@
 
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
-<div class="container pt-8 pb-8 pb-md-14 pt-md-14">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="text-center mb-3">For ship-operators</h2>
+<div id="home" class="container pt-8 pb-8 pb-md-14 pt-md-14">
+    <div class="row justify-content-start">
+        <div class="col-12">
+            <h2 class="text-center mb-3">For ship-operators</h2>
+        </div>
+        {{ range first 3 (sort $services ".Params.weight") }}
+        <div class="col-12 col-md-4 mb-1">
+            {{ .Render "summary" }}
+        </div>
+        {{ end }}
     </div>
-    {{ range first 3 (sort $services ".Params.weight") }}
-    <div class="col-12 col-md-4 mb-1">
-      {{ .Render "summary" }}
-    </div>
-    {{ end }}
-  </div>
 </div>
-{{end}}
+{{ end }}
 
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
 {{ range first 1 $reusablePages }}
-<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
-  <div class="container pt-17 pb-17">
-    <div class="row">
-      <div class="col-12 col-md-6 offset-md-6">
-        <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
-        <p>{{ .Content }}</p>
-        <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-      </div>
+<div class="strip strip-bg-cover bg-position-center bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+    <div class="container pt-17 pb-17">
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-6">
+                <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+                <p>{{ .Content }}</p>
+                <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 {{ end }}
 
 {{ $usps := where (where .Site.RegularPages "Type" "usps") ".Params.featured" true }}
 {{if gt (len $usps) 0}}
 <div class="container pt-8 pb-8 pb-md-14 pt-md-14">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="text-center mb-3">For developers</h2>
+    <div class="row justify-content-start">
+        <div class="col-12">
+            <h2 class="text-center mb-3">For developers</h2>
+        </div>
+        {{ range first 6 (sort $usps ".Params.weight") }}
+        <div class="col-12 col-md-4 mb-1">
+            {{ .Render "summary" }}
+        </div>
+        {{ end }}
     </div>
-    {{ range first 6 (sort $usps ".Params.weight") }}
-    <div class="col-12 col-md-4 mb-1">
-      {{ .Render "summary" }}
-    </div>
-    {{ end }}
-  </div>
 </div>
-{{end}}
+{{ end }}
 
 {{ range first 1 (after 1 $reusablePages) }}
-<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
-  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8 text-center text-white">
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Content }}</p>
-        <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-      </div>
+<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style="background-image: url(&quot;{{ .Params.background | relURL }}&quot;);">
+    <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center text-white">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Content }}</p>
+                <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 {{ end }}
 
