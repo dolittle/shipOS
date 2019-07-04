@@ -1,6 +1,6 @@
 ---
 title: 'Joint foundation'
-weight: 1
+weight: 2
 background: 'images/_DSC1719-1.jpg'
 button: 'Existing building blocks'
 buttonLink: 'https://dolittle.io'

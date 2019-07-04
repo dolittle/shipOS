@@ -1,10 +1,10 @@
 ---
-title: 'Superannuation'
+title: 'Profit'
 date: 2018-11-28T15:14:54+10:00
-icon: 'services/service-icon-5.png'
+icon: 'images/icons/noun_Profit_840211.svg'
 featured: true
 draft: false
-heroHeading: 'Superannuation'
+heroHeading: 'Potential profit'
 heroSubHeading: 'Saving for retirement requires careful planning.'
 heroBackground: 'services/service1.jpg'
 ---

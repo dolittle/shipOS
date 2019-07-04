@@ -1,7 +1,7 @@
 ---
 title: 'Studio'
 date: 2018-11-28T15:15:26+10:00
-icon: 'services/service-icon-3.png'
+icon: 'images/icons/noun_Browser_650879.svg'
 featured: true
 draft: false
 heroHeading: 'ShipOS Studio'

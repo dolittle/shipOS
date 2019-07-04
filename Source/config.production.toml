@@ -1,6 +1,6 @@
 baseURL = "https://shipos.netlify.com/"
 languageCode = "en-us"
-title = "shipOS"
+title = "ShipOS"
 themesDir = "./themes"
 theme = "hero"
 
@@ -9,7 +9,7 @@ theme = "hero"
 
   [params.homepage_meta_tags]
     meta_description = ""
-    meta_og_title = "shipOS"
+    meta_og_title = "ShipOS"
     meta_og_type = "website"
     meta_og_url = "https://shipos.org"
     meta_og_image = ""
@@ -29,10 +29,10 @@ theme = "hero"
 #    weight = 2
 #
 
-[[menu.main]]
-   name = "About"
-   url = "/about/"
-   weight = 3
+# [[menu.main]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 3
 #
 #[[menu.main]]
 #    name = "Contact"

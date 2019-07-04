@@ -1,7 +1,7 @@
 ---
 title: 'Impact'
 date: 2018-11-28T15:15:34+10:00
-icon: 'services/service-icon-4.png'
+icon: 'images/icons/noun_spread_502041.svg'
 featured: true
 draft: false
 heroHeading: 'Large impact area'
