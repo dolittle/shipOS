@@ -1,9 +1,9 @@
 ---
 title: 'Software platform'
-weight: 2
-background: ''
+weight: 1
+background: 'images/cloud_sync.png'
 button: 'About ShipOS'
 buttonLink: 'about'
 ---
 
- A software platform that allows developers to build and deploy applications to vessels that are ShipOS compatible.
+Simply put, ShipOS is a an edge powered box connected to a Dolittle powered software framework that allows developers to effectively build new applications.

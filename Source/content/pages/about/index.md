@@ -13,6 +13,3 @@ heroBackground: 'images/cloud_sync.png'
 <div>
 {{< content-strip-right "/pages/about" "content2" >}}
 </div>
-<div>
-{{< content-strip-center "/pages/about" "content3" >}}
-</div>
