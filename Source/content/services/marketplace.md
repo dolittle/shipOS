@@ -1,7 +1,7 @@
 ---
 title: 'Marketplace'
 date: 2018-11-28T15:13:26+10:00
-icon: 'services/service-icon-3.png'
+icon: 'images/icons/iconfinder_Artboard_14_3741735.svg'
 featured: true
 draft: false
 heroHeading: 'Marketplace'

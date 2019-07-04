@@ -1,7 +1,7 @@
 ---
 title: 'Savings'
 date: 2018-11-28T15:14:54+10:00
-icon: 'services/service-icon-5.png'
+icon: 'images/icons/iconfinder_bag_4635003.svg'
 featured: true
 draft: false
 heroHeading: 'Saving cost'
