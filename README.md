@@ -2,6 +2,9 @@
 
 This is the home of the shipOS landing page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e5f76c7-c43c-4ea6-bedf-1ad4cd3aea3d/deploy-status)](https://app.netlify.com/sites/shipos/deploys)
+
+
 ## Cloning
 
 This repository has sub modules, clone it with:
