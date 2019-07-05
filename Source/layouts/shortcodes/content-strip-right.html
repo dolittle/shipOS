@@ -8,7 +8,7 @@
 <div class="strip bg-cover bg-position-center bg-overlay pt-20 pb-20" style="background-image: url(' {{ .Params.background | relURL }} ');">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 offset-md-6 pt-xl-10 pb-xl-20">
+      <div class="col-7 offset-5 col-md-6 offset-md-6 pt-xl-10 pb-xl-20 text-right">
           {{ .Content }}
           {{ if .Params.button }}
             <a class="button button-primary" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button}}</a>
