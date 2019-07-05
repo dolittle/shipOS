@@ -8,8 +8,8 @@ heroBackground: 'images/cloud_sync.png'
 ---
 
 <div>
-{{< content-strip-left "/pages/about" "content1" >}}
+{{< content-strip-right "/pages/about" "content2" >}}
 </div>
 <div>
-{{< content-strip-right "/pages/about" "content2" >}}
+{{< content-strip-left "/pages/about" "content1" >}}
 </div>
