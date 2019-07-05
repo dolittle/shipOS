@@ -1,5 +1,5 @@
 ---
-title: 'Software platform'
+title: 'How does ShipOS work?'
 weight: 1
 background: 'images/cloud_sync.png'
 button: 'About ShipOS'
