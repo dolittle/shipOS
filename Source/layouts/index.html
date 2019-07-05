@@ -71,12 +71,12 @@
 
 {{ range first 1 (after 1 $reusablePages) }}
 <div class="strip strip-bg-cover bg-position-center bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
-    <div class="container pt-17 pb-17">
+    <div class="container pt-20 pb-20">
         <div class="row">
             <div class="col-12 col-md-6 offset-md-6">
                 <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
                 <p>{{ .Content }}</p>
-                <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+                <a class="button" href="{{ .Params.buttonLink | relURL }}" target="_blank">{{ .Params.button }}</a>
             </div>
         </div>
     </div>
